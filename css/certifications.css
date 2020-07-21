@@ -1,0 +1,16 @@
+.distriNavbar{
+    width: 480px;
+}
+.titlePage{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background-image: url('/distriformation/img/header.svg');
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}

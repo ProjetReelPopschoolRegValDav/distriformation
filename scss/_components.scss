@@ -3,9 +3,26 @@ body {
     width: 100%;
     margin: 0;
 }
-.header {
-    background-image: url(../img/header-01.png); 
+header {
+    background-image: url(../img/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
 }
-.footer {
-    background-image: url(../img/footer-01.png); 
+
+.logo {
+    width: 480px;
+    margin: 20px;
+}
+.navbar {
+    margin: 0 180px 0 30px;
+}
+.navbar-links{
+    color: white !important;
+}
+footer {
+    background-image: url(../img/footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
 }
