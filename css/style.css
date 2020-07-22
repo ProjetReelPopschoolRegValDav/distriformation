@@ -43,7 +43,8 @@ header {
   font-weight: bold;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate; }
+  animation: glow 2s ease-in-out infinite alternate;
+  margin: 0; }
 
 @-webkit-keyframes glow {
   from {
