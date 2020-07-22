@@ -15,6 +15,12 @@ header {
 .navbar-links {
   color: white !important; }
 
+.dropdown-menu {
+  background-color: #1390a8 !important; }
+
+.dropdown-item:hover {
+  background-color: #2db4bf !important; }
+
 .bg {
   width: 100%;
   background-color: #4C5C92;
@@ -70,7 +76,20 @@ footer {
   background-image: url(../img/footer.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px; }
+  background-position: center bottom;
+  height: 200px; }
+
+.textBottom {
+  text-align: center;
+  position: absolute;
+  top: 130px;
+  color: white; }
+
+.anchorBottom {
+  text-decoration: none;
+  color: white; }
+  .anchorBottom:hover {
+    color: white !important; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
