@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 body {
-    width: 100%;
-    margin: 0;
+    // width: 100%;
+    // margin: 0;
 }
 header {
     background-image: url(../img/header.svg);
@@ -19,6 +19,65 @@ header {
 }
 .navbar-links{
     color: white !important;
+}
+.bg {
+    width: 100%;
+    background-color: #4C5C92;
+    padding: 50px 0 50px 0;
+}
+.bg_top, .bg_bottom {
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+
+.bilan_competences {
+    font-family: 'Lato';
+    background: #4C5C92;
+ }
+ 
+ .neons {
+    text-align: center;
+ }
+ 
+ .neons h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+ }
+ 
+ @-webkit-keyframes glow {
+      from {
+        color: #fff;
+        text-shadow: 0 0 10px #61B3B3, 0 0 20px #61B3B3, 0 0 30px #61B3B3, 0 0 40px #61B3B3, 0 0 50px #61B3B3, 0 0 60px #61B3B3, 0 0 70px #61B3B3, 0 0 90px #61B3B3;
+   }
+   
+   to {
+        color: white;
+        text-shadow: 0 0 20px #61B3B3, 0 0 30px #61B3B3, 0 0 40px #61B3B3, 0 0 50px #61B3B3, 0 0 60px #61B3B3, 0 0 70px #61B3B3, 0 0 80px #61B3B3, 0 1 90px #61B3B3;
+   }
+ }
+
+ .white_block_who {
+    background-color: #f7f7f7;
+    color: #4C5C92;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+ .white_block_why {
+    background-color: #f7f7f7;
+    color: #4C5C92;
+    margin-top: 50px;
+    padding: 40px;
 }
 footer {
     background-image: url(../img/footer.svg);
