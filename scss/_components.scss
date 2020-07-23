@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+body {
+    background-color: #F7F7F7;
+}
 header {
     background-image: url(../img/header.svg);
     background-repeat: no-repeat;
@@ -83,6 +86,9 @@ header {
     margin-top: 50px;
     padding: 40px;
 }
+.partenaires {
+    margin-bottom: 50px;
+}
 footer {
     background-image: url(../img/footer.svg);
     background-repeat: no-repeat;
@@ -93,8 +99,9 @@ footer {
 .textBottom{
     text-align: center;
     position: absolute;
-    top: 130px;
+    top: 140px;
     color: white;
+
 }
 .anchorBottom {
     text-decoration: none;
@@ -103,4 +110,41 @@ footer {
     &:hover{
         color: white !important;
     }
+}
+.icon{
+    width: 2rem;
+
+}
+.titleContent{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.titleCertif{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+.nameContrat{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2db4bf;
+}
+.textContent{
+    color: #f7f7f7;
+}
+.titleContact{
+    color: #2b2832;
+    text-align: center;
+}
+.contactComponent{
+    background-color: #f7f7f7;
+    border: 1.5px solid #2b2832;
+}
+.bold{
+    font-weight: 600;
+}
+.infoContact{
+    list-style: none;
+    margin: 10px;
 }
