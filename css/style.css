@@ -91,6 +91,32 @@ footer {
   .anchorBottom:hover {
     color: white !important; }
 
+/* CSS de la page contact */
+h1{
+  text-align: center;
+  padding-top: 3rem;
+}
+.contact{
+  color: black;
+  line-height: 5rem;
+  margin-top: 5rem;
+}
+.contact__icons{
+  height: 2rem;
+}
+.form{
+  color: black;
+}
+form .btn{
+  background: #468894 !important;
+  color: white !important;
+  padding: 0.3rem 2rem;
+  margin-left: 70%;
+}
+form div{
+  line-height: 0.2rem !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

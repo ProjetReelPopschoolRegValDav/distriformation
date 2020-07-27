@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Contact</title>
+    <title>Distri.Formation</title>
 </head>
 <body>
-    
+
+
     <header class="header">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <img class="logo" src="img/distriformation_logo.png" alt="Logo Distri Formation" class="logo">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -20,47 +21,101 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link navbar-links" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link navbar-links" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link navbar-links dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link navbar-links dropdown-toggle" href="certifications.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Nos certifications
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="navbar-links dropdown-item" href="#">Certification 1</a>
-                            <a class="navbar-links dropdown-item" href="#">Certification 2</a>
-                            <a class="navbar-links dropdown-item" href="#">Certification 3</a>
-                            <a class="navbar-links dropdown-item" href="#">Certification 4</a>
+                        <div class="navbar-links dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="navbar-links dropdown-item" href="certifications.html">Certification 1</a>
+                            <a class="navbar-links dropdown-item" href="certifications.html">Certification 2</a>
+                            <a class="navbar-links dropdown-item" href="certifications.html">Certification 3</a>
+                            <a class="navbar-links dropdown-item" href="certifications.html">Certification 4</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link navbar-links dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link navbar-links dropdown-toggle" href="metiers.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Les métiers
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="navbar-links dropdown-item" href="#">Métier 1</a>
-                            <a class="navbar-links dropdown-item" href="#">Métier 2</a>
-                            <a class="navbar-links dropdown-item" href="#">Métier 3</a>
-                            <a class="navbar-links dropdown-item" href="#">Métier 4</a>
+                        <div class="navbar-links dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="navbar-links dropdown-item" href="metiers.html">Métier 1</a>
+                            <a class="navbar-links dropdown-item" href="metiers.html">Métier 2</a>
+                            <a class="navbar-links dropdown-item" href="metiers.html">Métier 3</a>
+                            <a class="navbar-links dropdown-item" href="metiers.html">Métier 4</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-links" href="#">Nos partenaires</a>
+                        <a class="nav-link navbar-links" href="partenaires.html">Nos partenaires</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-links" href="#">Contact</a>
+                        <a class="nav-link navbar-links" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
     </header>
 
     <main>
+        <h1>NOUS CONTACTER</h1>
+        <img src="img/bg_top.png" alt="" class="bg_top">
 
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <section class="white_block_who contact">
+                            <h2>Nos coordonnées</h2>
+                            <div><img src="img/icon_hour.svg" alt="" class="contact__icons"> Horaires :</div>
+                            <div><img src="img/icon_placeholder.svg" alt="" class="contact__icons"> Localisation :</div>
+                            <div><img src="img/icon_phone.svg" alt="" class="contact__icons"> Téléphone :</div>
+                            <div><img src="img/icon_mail.svg" alt="" class="contact__icons"> Mail :</div>
+                            <div><img src="img/icon_contact.svg" alt="" class="contact__icons"> Personne à contacter :</div>
+                        </section>
+                    </div>
+                    <div class="col-xl-1"></div>
+                    <div class="col-xl-6">
+                        <section class="white_block_who form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlText1"></label>
+                                    <input type="text" class="form-control" placeholder="Nom">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlText2"></label>
+                                    <input type="text" class="form-control" placeholder="Prénom">
+                                  </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1"></label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail (name@example.com)">
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select">
+                                        <option selected>Type de formation</option>
+                                        <option value="1">Formation 1</option>
+                                        <option value="2">Formation 2</option>
+                                        <option value="3">Formation 3</option>
+                                      </select>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1"></label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn">Envoyer</button>
+                              </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/bg_bottom.png" alt="" class="bg_bottom">
     </main>
 
     <footer class="footer">
-        
+        <div class=" textBottom col-xl-12">
+            <p>Mentions légales | <a href="" class="anchorBottom">Contact</a> | <a href="" class="anchorBottom">distriformation.fr</a></p>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
