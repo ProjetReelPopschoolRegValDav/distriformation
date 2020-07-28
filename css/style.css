@@ -97,7 +97,6 @@ footer {
   .anchorBottom:hover {
     color: white !important; }
 
-<<<<<<< HEAD
 /* CSS de la page contact */
 h1{
   text-align: center;
@@ -123,43 +122,6 @@ form .btn{
 form div{
   line-height: 0.2rem !important;
 }
-=======
-.icon {
-  width: 2rem; }
-
-.titleContent {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 18px; }
-
-.titleCertif {
-  text-align: center;
-  font-size: 4rem;
-  margin-top: 20px; }
-
-.nameContrat {
-  text-align: center;
-  margin-bottom: 15px;
-  color: #2db4bf; }
-
-.textContent {
-  color: #f7f7f7; }
-
-.titleContact {
-  color: #2b2832;
-  text-align: center; }
-
-.contactComponent {
-  background-color: #f7f7f7;
-  border: 1.5px solid #2b2832; }
-
-.bold {
-  font-weight: 600; }
-
-.infoContact {
-  list-style: none;
-  margin: 10px; }
->>>>>>> 7e8d94b8c0877b1f32595408152e1971e14159ff
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
