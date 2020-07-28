@@ -96,6 +96,10 @@ footer {
     background-position: center bottom;
     height: 200px;
 }
+.footer__logo{
+    width: 2rem;
+    margin-left: 1.5rem;
+}
 .textBottom{
     text-align: center;
     position: absolute;
@@ -148,6 +152,18 @@ footer {
     list-style: none;
     margin: 10px;
 }
+h2{
+    color: #61B3B3;
+    text-align: center;
+  }
+  .textContent{
+    color: white;
+  }
+  p{
+    color: #2B2832;
+    text-align: justify;
+  }
+
 /* CSS de la page contact */
 h1{
     text-align: center;
